@@ -1,1 +1,0 @@
-const URL="https://rickandmortyapi.com/api/character"; export async function getCharacters(){ const r=await fetch(URL); const d=await r.json(); return d.results; }
